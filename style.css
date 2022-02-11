@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#heading {
+    font-size: 4rem;
+    color: white;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #171717;
+}
+
+main > p {
+    margin: 10vh;
+    font-size: 4rem;
+}
+
+.button {
+    height: 10vh;
+    width: 20vw;
+    font-size: 1.75rem;
+    background-color: #202020;
+    border-radius: 0.5em;
+}
+
+.decrease {
+    color: red;
+}
+
+.reset {
+    color: cyan;
+}
+
+.increase {
+    color: green;
+}
